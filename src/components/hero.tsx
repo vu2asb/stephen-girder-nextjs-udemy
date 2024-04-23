@@ -16,7 +16,7 @@ export default function Hero(props: HeroProps){
                 src={props.imgData} 
                 alt={props.imgAlt}
                 fill
-                style={{objectFit: 'cover'}}
+                // style={{objectFit: 'cover'}}
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-r from-slate-900">
